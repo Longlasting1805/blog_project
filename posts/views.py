@@ -26,3 +26,7 @@ class UserViewSet(viewsets.ModelViewSet):  # new
 # class UserDetail(generics.RetrieveUpdateDestroyAPIView):
 #     queryset = get_user_model().objects.all()
 #     serializer_class = UserSerializer
+
+# class PostList(generics.ListCreateAPIView):
+#     queryset = Post.objects.all()
+#     serializer_class = PostSerializer
